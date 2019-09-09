@@ -1,8 +1,8 @@
-**Problem**: as of v0.4.7 ShellCheck [does not support](https://github.com/koalaman/shellcheck/wiki/Ignore) configuration files.
+**problème**: pour la version 0.4.7 ShellCheck [ne doit pas supporter](https://github.com/acidburn0zzz/shellcheck/wiki/Ignore) configuration files.
 
-**Proposed solution**: use same config format from related [Hadolint](https://github.com/hadolint/hadolint) tool which itself uses ShellCheck.
+**Solution proposer**: utiliser la même configuration de format relative à l'outil [Hadolint](https://github.com/hadolint/hadolint) qui lui même utilise ShellCheck.
 
-Sample configuration for `.shellcheck.yaml`: 
+Exemple de configuration pour `.shellcheck.yaml`: 
 
 ```sh
 ignored:
@@ -11,4 +11,4 @@ ignored:
   - SC2046
 ```
 
-This configuration is supported by [CodeFactor](https://www.codefactor.io).
+Cette configuration est supportée par [CodeFactor](https://www.codefactor.io).
