@@ -1,4 +1,4 @@
-**problème**: pour la version 0.4.7 ShellCheck [ne doit pas supporter](https://github.com/acidburn0zzz/shellcheck/wiki/Ignore) configuration files.
+**problème**: pour la version 0.4.7 ShellCheck [ne doit pas supporter](https://github.com/acidburn0zzz/shellcheck/wiki/Ignore) le fichier de configuration.
 
 **Solution proposer**: utiliser la même configuration de format relative à l'outil [Hadolint](https://github.com/hadolint/hadolint) qui lui même utilise ShellCheck.
 
